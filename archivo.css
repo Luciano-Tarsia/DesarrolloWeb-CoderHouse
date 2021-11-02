@@ -1,0 +1,90 @@
+* {
+    Margin: 0;
+    padding: 0px;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-size: 16px;
+}
+
+table {
+    border: 3px solid;
+}
+  
+th {
+    background-color:#cccccc;
+    border: 1px solid;
+}
+  
+tr, td {
+    border: 1px solid;
+}
+
+ul li{
+    list-style-type: none;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+  
+p{
+    color: #FF5151;
+}
+
+h1{
+    color:#FF5151;
+}
+
+h3{
+    color:#FF5151;
+}
+ 
+body {
+    background-color: #161E54;
+}
+
+/*ID´s*/
+
+#perfil { /*Borde de la imagen*/
+    border-radius: 50%;
+    grid-area: imagen;
+}
+
+#header{ /*Flex*/
+    background-color:#88E0EF;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+#text{
+    grid-area: texto;
+}
+
+#divRoot{
+    display: grid;
+    grid-template-areas:
+        ". . ."
+        "imagen . texto"
+        ". . .";
+    justify-items: center;
+    align-items: center;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    
+} 
+
+/* Flex
+#divRoot{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+*/
