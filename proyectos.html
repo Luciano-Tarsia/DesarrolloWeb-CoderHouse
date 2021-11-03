@@ -7,43 +7,68 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="archivo.css"/>
+
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Zen+Kaku+Gothic+Antique:wght@300;400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <ul id="header">
-            <li><a href="index.html"><img src = "img/Logo.png" alt="perfil" width="60" height="60"/></a></li>
-            <li><a href="sobremi.html">Sobre mi</a></li>
-            <li><a href="proyectos.html">Proyectos</a></li>
-            <li><a href="curriculum.html">Curriculum</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-        </ul>
+        <div class="container-flex">
+            <ul class="nav navbar-dark bg-primary" style="background-color: #e3f2fd;">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html" style="color: #e3f2fd;" >Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sobremi.html" style="color: #e3f2fd;">Sobre Mi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="proyectos.html" style="color: #e3f2fd;">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="curriculum.html" style="color: #e3f2fd;">Curriculum</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html" style="color: #e3f2fd;">Contacto</a>
+              </li>
+            </ul>
+        </div>          
     </header>
+
     <main>
-        <table>
-            <tr>
-                <th>Trabajo</th>
-                <th>Descripción</th>
-                <th>Link</th>
-            </tr>
-            <tr>
-                <th>TP3 Métodos numéricos</th>
-                <th>Estimación de precios de inmuebles usando cuadrados mínimos lineales</th>
-                <th>https://gitlab.com/Luciano-Tarsia/tp3-metodos-numericos</th>
-            </tr>
-            <tr>
-                <th>TP3 Algoritmos 3</th>
-                <th>Coloreo de grafos</th>
-                <th>https://gitlab.com/Luciano-Tarsia/tp2-algoritmos-y-estr.-de-datos-iii</th>
-            </tr>
-            <tr>
-                <th>Curso de Desarrollo web</th>
-                <th>Desarrollo de portfolio</th>
-                <th>https://gitlab.com/Luciano-Tarsia/desarrollo-web-coderhouse</th>
-            </tr>
-        </table>
+        <div class="row" style="margin: 2rem;">
+            <div class="card col-md-3" style="width: 18rem; margin: 3rem;">
+                <img src="img/regresion.png" class="card-img-top" alt="LinearRegression">
+                <div class="card-body">
+                  <h5 class="card-title">TP3 Métodos numéricos</h5>
+                  <p class="card-text">Estimación de precios de inmuebles usando cuadrados mínimos lineales.</p>
+                  <a href="https://gitlab.com/Luciano-Tarsia/tp3-metodos-numericos" class="btn btn-primary">Detalle</a>
+                </div>
+            </div>
+
+            <div class="card col-md-3" style="width: 18rem; margin: 3rem;">
+                <img src="img/coloreo.png" class="card-img-top" alt="LinearRegression">
+                <div class="card-body">
+                  <h5 class="card-title">TP3 Algoritmos y Estructuras de datos 3</h5>
+                  <p class="card-text">Coloreo de grafos.</p>
+                  <a href="https://gitlab.com/Luciano-Tarsia/tp2-algoritmos-y-estr.-de-datos-iii" class="btn btn-primary">Detalle</a>
+                </div>
+            </div>
+
+            <div class="card col-md-3" style="width: 18rem; margin: 3rem;">
+                <img src="img/desarrollo.jpg" class="card-img-top" alt="GraphColouring">
+                <div class="card-body">
+                  <h5 class="card-title">Curso de Desarrollo web</h5>
+                  <p class="card-text">Desarrollo de portfolio.</p>
+                  <a href="https://gitlab.com/Luciano-Tarsia/desarrollo-web-coderhouse" class="btn btn-primary">Detalle</a>
+                </div>
+            </div>
+        </div>
     </main>
-    <footer>
-        <h3>Copyright 2021  |  Política de privacidad  |</h3>
+
+    <footer style="margin: 1rem;">
+        <h5>Copyright 2021  |  Política de privacidad  |</h5>
     </footer> 
 </body>
 </html>

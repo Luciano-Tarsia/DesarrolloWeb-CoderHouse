@@ -1,21 +1,8 @@
 * {
-    Margin: 10px;
+    Margin: 0px;
     padding: 0px;
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
     font-size: 16px;
-}
-
-table {
-    border: 3px solid;
-}
-  
-th {
-    background-color:#cccccc;
-    border: 1px solid;
-}
-  
-tr, td {
-    border: 1px solid;
 }
 
 ul li{
@@ -25,35 +12,27 @@ ul li{
     margin: 10px;
 }
 
-a:link{
-    text-decoration: none;
-}
-
 a:hover {
-    color: white;
+    color: darkblue;
 }
   
 p{
-    color: #FF5151;
+    color:black;
 }
 
 h1{
-    color:#FF5151;
+    color:black;
 }
 
 h3{
-    color:#FF5151;
-}
- 
-body {
-    background-color: #161E54;
+    color:black;
 }
 
 /*ID´s*/
 
 #perfil { /*Borde de la imagen*/
     border-radius: 50%;
-    grid-area: imagen;
+    /*grid-area: imagen;*/
 }
 
 #header{ /*Flex*/
@@ -63,10 +42,12 @@ body {
     margin: 20px;
 }
 
+/*
 #text{
     grid-area: texto;
 }
 
+Grid
 #divRoot{
     display: grid;
     grid-template-areas:
@@ -80,7 +61,7 @@ body {
     
 } 
 
-/* Flex
+Flex
 #divRoot{ 
     display: flex;
     align-items: center;
