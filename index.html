@@ -6,17 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Luciano Tarsia</title>
 
-    <link rel="stylesheet" href="archivo.css"/>
-
     <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Zen+Kaku+Gothic+Antique:wght@300;400&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="archivo.css"/>
 </head>
 <body>
     <header>
         <div class="container-flex">
-            <ul class="nav navbar-dark bg-primary" style="background-color: #e3f2fd;">
+            <ul class="grad nav navbar-dark bg-primary" >
               <li class="nav-item">
                 <a class="nav-link" href="index.html" style="color: #e3f2fd;" >Inicio</a>
               </li>
@@ -36,23 +36,24 @@
         </div>          
     </header>
     <main>
-        <div class="container" style="margin: 3rem;">
-            <div class="row">
-                <div class="col-md-6">
-                    <img id="perfil" src ="img/DSC_0763_2.jpg" alt="perfil" width="320" height="320"/>
-                </div>
-                <div class="col-md-6">
-                    <h1>Luciano Tarsia</h1>
-                    <p>Hola, bienvenidx a mi portfolio.</p>
-                    <p>Soy Luciano, estudiante de la licenciatura en Ciencias de la Computación de la UBA</p>
-                    <p>y desarrollador fullstack en Technisys.</p>
-                    <p>Te invito a conocerme a mi y a mi trabajo mediante esta página web.</p>
-                </div>
+        <div id="central">
+            <div>
+                <img id="perfil" src ="img/DSC_0763_2.jpg" alt="perfil" width="300" height="300" />
+            </div>
+            <div style="max-width: 10cm; margin-top: 1cm;">
+                <h1>Luciano Tarsia</h1>
+                <p>Hola, bienvenidx a mi portfolio.</p>
+                <p>Soy Luciano, estudiante de la licenciatura en Ciencias de la Computación de la UBA y desarrollador fullstack en Technisys.</p>
+                <p>Te invito a conocerme a mi y a mi trabajo mediante esta página web.</p>
             </div>
         </div>
     </main>
-    <footer style="margin: 1rem;">
-        <h5>Copyright 2021  |  Política de privacidad  |</h5>
-    </footer>
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+                <span class="text-muted">© 2021 Company, Inc</span>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
