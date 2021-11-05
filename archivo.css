@@ -33,21 +33,49 @@ footer{
     bottom:0;
 }
 
-/*ID´s*/
+/*Clases*/
+
+.proyectos{
+    display: flex;
+    justify-content: space-around;
+}
 
 .grad {
     background-image: linear-gradient(to bottom, #007bff , #091353);
-}   
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/*ID´s*/
 
 #central{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    margin: 2cm;
+    margin: 1cm;
+}
+
+#bienvenida{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1cm;
+}
+
+#imagenes{
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 #perfil { /*Borde de la imagen*/
     border-radius: 50%;
-    /*grid-area: imagen;*/
 }
