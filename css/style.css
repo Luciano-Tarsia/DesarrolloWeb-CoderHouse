@@ -1,0 +1,121 @@
+@charset "UTF-8";
+* {
+  Margin: 0px;
+  padding: 0px;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  font-size: 16px;
+}
+
+body {
+  background-color: #091353;
+}
+
+ul li {
+  list-style-type: none;
+  font-weight: bold;
+  padding: 10px;
+  margin: 10px;
+}
+
+p {
+  color: white;
+}
+
+h1 {
+  color: white;
+}
+
+h3 {
+  color: white;
+}
+
+footer {
+  color: white;
+  bottom: 0;
+}
+
+/*Clases*/
+.proyectos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.grad {
+  background-image: linear-gradient(to bottom, #007bff, #091353);
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/*ID´s*/
+#central {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 1cm;
+}
+
+#central__parrafo {
+  max-width: 15cm;
+  margin-top: 1cm;
+}
+
+#central__parrafo__oracion {
+  text-align: center;
+}
+
+#bienvenida {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 1cm;
+}
+
+#bienvenida__chica {
+  font-size: 0.7cm;
+  text-align: center;
+}
+
+#cv {
+  margin: 3rem;
+}
+
+#cv__img {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#form {
+  margin: 3rem;
+}
+
+#form__1 {
+  margin: 0.5cm;
+}
+
+#form__2 {
+  margin: 0.5cm;
+}
+
+#form__dropdown {
+  margin: 0.5cm;
+}
+
+#form__input {
+  margin: 0.5cm;
+}
+
+#perfil {
+  /*Borde de la imagen*/
+  border-radius: 50%;
+}
+
+/*# sourceMappingURL=style.css.map */
