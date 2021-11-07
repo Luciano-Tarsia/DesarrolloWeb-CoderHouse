@@ -110,6 +110,10 @@ footer{
     margin: 0.5cm;
 }
 
-#perfil { /*Borde de la imagen*/
-    border-radius: 50%;
+#perfil {
+  /*Borde de la imagen*/
+  border-radius: 50%;
+  transition: all .2s ease-in-out;
 }
+
+#perfil:hover{transform: scale(1.1);}
